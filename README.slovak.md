@@ -14,12 +14,12 @@
 
 <br/>
 
-[![nodepractices](/assets/images/twitter-s.png)](https://twitter.com/nodepractices/) **Sleduj náš Twitter!** [**@nodepractices**](https://twitter.com/nodepractices/)
+[![nodepractices](/assets/images/twitter-s.png)](https://twitter.com/nodepractices/) **Sledujte náš Twitter!** [**@nodepractices**](https://twitter.com/nodepractices/)
 
 
 <br/>
 
-Čítať v inom jazyku: [![CN](/assets/flags/CN.png)**CN**](/README.chinese.md), [![BR](/assets/flags/BR.png)**BR**](/README.brazilian-portuguese.md), [![RU](/assets/flags/RU.png)**RU**](/README.russian.md), [![PL](/assets/flags/PL.png)**PL**](/README.polish.md) [(![ES](/assets/flags/ES.png)**ES**, ![FR](/assets/flags/FR.png)**FR**, ![HE](/assets/flags/HE.png)**HE**, ![KR](/assets/flags/KR.png)**KR** a ![TR](/assets/flags/TR.png)**TR** čakajú na preklad!)](#translations)
+Prečítať v inom jazyku: [![CN](/assets/flags/CN.png)**CN**](/README.chinese.md), [![BR](/assets/flags/BR.png)**BR**](/README.brazilian-portuguese.md), [![RU](/assets/flags/RU.png)**RU**](/README.russian.md), [![PL](/assets/flags/PL.png)**PL**](/README.polish.md) [(![ES](/assets/flags/ES.png)**ES**, ![FR](/assets/flags/FR.png)**FR**, ![HE](/assets/flags/HE.png)**HE**, ![KR](/assets/flags/KR.png)**KR** a ![TR](/assets/flags/TR.png)**TR** čakajú na preklad!)](#translations)
 
 <br/>
 
@@ -27,7 +27,7 @@
 
 # Najnovšie osvedčené postupy a novinky
 
-- **:tada: Článok Node.js best practices dosiahol 50 000 hviezd**: Vďaka každému, kto pomohol vybudovať tento projekt do dnešnej podoby! Do budúcna máme veľa plánov a stále budeme tieto osvedčené postupy pre Node.js rozširovať.
+- **:tada: Článok Node.js best practices dosiahol 50 000 hviezd**: Ďakujeme každému, kto pomohol vybudovať tento projekt do dnešnej podoby! Do budúcna máme veľa plánov a stále budeme tieto osvedčené postupy pre Node.js rozširovať.
 
 - **🎧 Podcast**: Yoni Goldberg z našeho tímu sa zúčastnil jedného JS Party Podcastu (Veľmi obľúbený!), kde rozprával o osvedčených postupoch pre Node.js, [🎧 podcast tu](https://changelog.com/jsparty/139)
 
@@ -37,42 +37,42 @@
 
 <br/><br/>
 
-# Vitaj! 3 veci, ktoré by si mal vedieť
+# Vitajte! 3 veci, ktoré by ste mali vedieť
 
-**1. Určite si  -** this repository is a summary and curation of the top-ranked content on Node.js best practices, as well as content written here by collaborators
+**1. Určite ste si prečítali mnoho skvelých článkov o Node.js -** v tomto repozitári je výber z toho najlepšie hodnoteného obsahu v rámci osvedčených postupov v Node.js a zároveň sa tu nachádza aj obsah písaný spolupracovníkmi
 
-**2. It is the largest compilation, and it is growing every week -** currently, more than 80 best practices, style guides, and architectural tips are presented. New issues and pull requests are created every day to keep this live book updated. We'd love to see you contributing here, whether that is fixing code mistakes, helping with translations, or suggesting brilliant new ideas. See our [writing guidelines here](/.operations/writing-guidelines.md)
+**2. Toto je najobsiahlejšia zbierka a každý týždeň rastie  -** v súčasnosti sa tu nachádza viac ako 80 osvedčených postupov, odporúčaných štýlov a tipov pre architektúru. Každý deň tu pribúdajú nové issues aj pull requesty, pre aktuálnosť údajov. Privítame každú spoluprácu, či už sa jedná o opravu chýb v kóde, pomoc pri preklade alebo návrh nejakej prelomovej myšlienky. Pozrite aj [pokyny na písanie](/.operations/writing-guidelines.md)
 
-**3. Most best practices have additional info -** most bullets include a **🔗Read More** link that expands on the practice with code examples, quotes from selected blogs and more information
-
-<br/><br/>
-
-## Table of Contents
-
-1. [Project Structure Practices (5)](#1-project-structure-practices)
-2. [Error Handling Practices (11) ](#2-error-handling-practices)
-3. [Code Style Practices (12) ](#3-code-style-practices)
-4. [Testing And Overall Quality Practices (13) ](#4-testing-and-overall-quality-practices)
-5. [Going To Production Practices (19) ](#5-going-to-production-practices)
-6. [Security Practices (25)](#6-security-best-practices)
-7. [Performance Practices (2) (Work In Progress️ ✍️)](#7-draft-performance-best-practices)
-8. [Docker Practices (15)](#8-docker-best-practices)
+**3. Väčšina osvedčených postupov má aj podrobnosti -** väčšina bodov obsahuje odkaz na **🔗Podrobnosti**, ktoré sú rozšírené o ukážky kódu, citácie z vybraných blogov a viac informácii.
 
 <br/><br/>
 
-# `1. Project Structure Practices`
+## Obsah
 
-## ![✔] 1.1 Structure your solution by components
-
-**TL;DR:** The worst large applications pitfall is maintaining a huge code base with hundreds of dependencies - such a monolith slows down developers as they try to incorporate new features. Instead, partition your code into components, each gets its own folder or a dedicated codebase, and ensure that each unit is kept small and simple. Visit 'Read More' below to see examples of correct project structure
-
-**Otherwise:** When developers who code new features struggle to realize the impact of their change and fear to break other dependent components - deployments become slower and riskier. It's also considered harder to scale-out when all the business units are not separated
-
-🔗 [**Read More: structure by components**](/sections/projectstructre/breakintcomponents.md)
+1. [Postupy pre štruktúru projektu (5)](#1-project-structure-practices)
+2. [Postupy pre spracovanie chýb (11) ](#2-error-handling-practices)
+3. [Postupy pre písanie kódu (12) ](#3-code-style-practices)
+4. [Postupy pre testovanie a celkovú kvalitu (13) ](#4-testing-and-overall-quality-practices)
+5. [Postupy pre prechod na produkčnú verziu (19) ](#5-going-to-production-practices)
+6. [Bezpečnostné postupy (25)](#6-security-best-practices)
+7. [Postupy pre výkon (2) (Rozpracované️ ✍️)](#7-draft-performance-best-practices)
+8. [Postupy pre docker (15)](#8-docker-best-practices)
 
 <br/><br/>
 
-## ![✔] 1.2 Layer your components, keep the web layer within its boundaries
+# `1. Postupy pre štruktúru projektu`
+
+## ![✔] 1.1 Vytvorte štruktúru na základe komponentov
+
+**TL;DR:** Najväčším kameňom úrazu veľkých aplikácii je udržiavanie obrovského kódu so stovkami závislostí - takýto monolit spomaľuje vývojárov pri vytváraní nových funkcionalít. Snažte sa rozdeliť svoj kód na komponenty, z ktorých sa každý bude nachádzať vo vlastnom priečinku alebo inej štruktúre a snažte sa každú jednotku udržať čo najmenšiu a najjednoduchšiu. Kliknite na 'Podrobnosti' pre ukážky správnej štruktúry projektu.
+
+**Inak:** Vývojári vytvárajúci novú funkcionalitu si nemusia uvedomiť vplyv ich zmeny a môžu sa báť, že rozbijú už existujúce komponenty - nasadenie môže byť pomalšie a rizikovejšie. Ak sú komponenty nahromadené, je ťažšie škálovať aplikáciu
+
+🔗 [**Podrobnosti: štruktúra na základe komponentov**](/sections/projectstructre/breakintcomponents.md)
+
+<br/><br/>
+
+## ![✔] 1.2 Vrstvite komponenty, udržte webovú vrstvu v rámci jej možností
 
 **TL;DR:** Each component should contain 'layers' - a dedicated object for the web, logic, and data access code. This not only draws a clean separation of concerns but also significantly eases mocking and testing the system. Though this is a very common pattern, API developers tend to mix layers by passing the web layer objects (e.g. Express req, res) to business logic and data layers - this makes your application dependent on and accessible only by specific web frameworks
 
